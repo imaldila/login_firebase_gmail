@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "363256617139",
+    "project_id": "signin-415ca",
+    "storage_bucket": "signin-415ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363256617139:android:cff8867630adcba2aeb8c6",
+        "android_client_info": {
+          "package_name": "com.aldi.google_signin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363256617139-um4ee3ea7je1k81lrdcpdfok78t1sja6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aldi.google_signin",
+            "certificate_hash": "68f3d7fb55083155850ec99219d52b1138ceaff3"
+          }
+        },
+        {
+          "client_id": "363256617139-41d7glgrk99pcrfsfpb5igqemftaosb0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNP0EuUqn546Se1D7SKE9v1zbhVSMfLkc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363256617139-41d7glgrk99pcrfsfpb5igqemftaosb0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
