@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "363256617139-4n7d4s8hfd47vk4ts341ivkg325ki4ki.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aldi.google_signin",
+            "certificate_hash": "b46b48fa4f652b1054ed374606c35e3b9f97b017"
+          }
+        },
+        {
           "client_id": "363256617139-um4ee3ea7je1k81lrdcpdfok78t1sja6.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

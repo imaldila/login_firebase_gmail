@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">google_signin </string>
+    <string name="facebook_app_id">509798674256269</string>
+    <string name="facebook_client_token">ae93f283f71f2c5750359468de085a44</string>
+</resources>

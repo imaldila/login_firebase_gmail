@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:google_signin/providers/facebook_sign_in.dart';
 
 import 'package:google_signin/providers/google_sign_in.dart';
 import 'package:provider/provider.dart';
@@ -17,14 +18,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider(
-      create: (context) => GoogleSignInProvider(),
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (context) => GoogleSignInProvider()),
+        ChangeNotifierProvider(create: (context) => FacebookSignInProvider())
+      ],
       child: const MaterialApp(
         home: HomePage(),
       ),
     );
   }
 }
-
-
-

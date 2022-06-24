@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:google_signin/providers/facebook_sign_in.dart';
 import 'package:provider/provider.dart';
 
 import '../providers/google_sign_in.dart';
@@ -38,6 +39,20 @@ class SignUpWidget extends StatelessWidget {
                 context.read<GoogleSignInProvider>().googleLogin();
               },
               label: const Text('Login with Google'),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: ElevatedButton.icon(
+              style: ElevatedButton.styleFrom(
+                  primary: Colors.blue,
+                  onPrimary: Colors.white,
+                  minimumSize: const Size(double.infinity, 50)),
+              icon: const FaIcon(FontAwesomeIcons.facebook),
+              onPressed: () {
+                context.read<FacebookSignInProvider>().signInFB();
+              },
+              label: const Text('Login with Facebook'),
             ),
           ),
         ],
